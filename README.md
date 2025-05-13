@@ -31,5 +31,5 @@ map.c map function: If you want to follow a specific track, you can integrate al
 up_sensor.c external sensor function: The sensor here is my external ultrasonic sensor, which detects obstacles in front. I did not connect it to the main board of the wheel, but to my stm32 host computer. If you do not connect it externally, you can comment out the sensor-related code. If you want to modify the sensor interface, you can modify it in sup_sensor.c
 
 
-
+You can see the description of my code excerpt on the website https://blog.csdn.net/hebegetcode/article/details/147932755?spm=1001.2014.3001.5501
 ​
