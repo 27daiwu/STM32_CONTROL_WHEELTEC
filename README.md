@@ -1,5 +1,6 @@
-![image](https://github.com/user-attachments/assets/1f4e2836-7387-40b6-8596-773b8c4b9138)1. Serial port command query
+1. Serial port command query
 The official ROS car of Lunqu has a serial port control interface, which is mentioned in the instruction document attached to the car:
+​​​​​​​​![image](https://github.com/user-attachments/assets/3e840474-d581-4a45-89e1-bc7f7b7dbf78)
 
 Frame header: fixed value Ox7B, marking the beginning of the data packet, occupying one byte;
 Reserved bit: The second and third bytes are reserved bits, meaningless, each occupying one byte.
@@ -14,6 +15,8 @@ The baud rate of Lunqu's motherboard is generally 115200, you can also look at t
 The check digit can be calculated through the web page:[BCC校验(异或校验)在线计算_ip33.com](http://www.ip33.com/bcc.html)
 
 The serial port location can be found in the relevant information provided.
+![image](https://github.com/user-attachments/assets/a4e2f86b-2ea2-4433-b5c5-077a50d702cc)
+
 
 2.Interpretation of functions in project files
 Mainly look at the function I wrote, which was written as a library function:
